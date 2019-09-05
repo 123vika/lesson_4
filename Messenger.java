@@ -35,7 +35,7 @@ public class Messenger extends JFrame {
         jtf.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Your message: " + jtf.getText());
+                System.out.println(" Your message: " + jtf.getText());
 
 
 
@@ -53,14 +53,14 @@ public class Messenger extends JFrame {
         });
 
 
-        JButton jb = new JButton("SEND");
+        JButton jb = new JButton(" SEND ");
         jb.setPreferredSize(new Dimension(200,70));
         add(jb,BorderLayout.SOUTH);
         jb.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //System.out.println(jtf);
-                System.out.println("Your message: " + jtf.getText());
+                System.out.println(" Your message: " + jtf.getText());
 
                 String text = jtf.getText();
                 //   jtf2.textarea.append(text + newline);
@@ -68,7 +68,7 @@ public class Messenger extends JFrame {
 
                 jtf2.append(text+"\n");
 
-                jtf.setText("");
+                jtf.setText(" ");
 
             }
         });
