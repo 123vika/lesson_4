@@ -45,7 +45,7 @@ public class Messenger extends JFrame {
 
                 jtf2.append(text+"\n");
 
-                jtf.setText(" ");
+                jtf.setText("");
 
 
                // jtf2.a
